@@ -50,6 +50,6 @@
   "needs": {
     "host_ram_gb": 42,
     "disk_gb": 14,
-    "fast_storage": true
+    "fast_storage": "nvme"
   }
 }
