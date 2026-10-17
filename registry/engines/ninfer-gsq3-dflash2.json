@@ -45,7 +45,11 @@
   "backend": "nvidia",
   "min_cuda": 13.1,
   "weights": [
-    "roofkid/Qwen3.8-27B-GSQ3-NInfer@2359d374b0f6ed3cd400815e5114d32ce03b5899"
+    {
+      "repo": "roofkid/Qwen3.8-27B-GSQ3-NInfer",
+      "revision": "2359d374b0f6ed3cd400815e5114d32ce03b5899",
+      "at": "models/"
+    }
   ],
   "needs": {
     "host_ram_gb": 42,
